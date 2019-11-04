@@ -10,7 +10,6 @@ pipeline{
 	 }
 	}
 }
-stage{
    stage('Testing stage'){
     
 	steps{
@@ -22,4 +21,3 @@ stage{
 
   }
  }
-}
