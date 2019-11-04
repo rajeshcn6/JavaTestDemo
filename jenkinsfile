@@ -1,8 +1,8 @@
 pipeline{
  agent any
   
-  stages{
-   stage('comiple stage'){
+  Stages{
+   Stage('comiple stage'){
     
 	steps{
 	 withMaven(maven : 'maven_3_5_0'){
@@ -10,7 +10,7 @@ pipeline{
 	 }
 	}
 }
-stage{
+Stage{
    stage('Testing stage'){
     
 	steps{
